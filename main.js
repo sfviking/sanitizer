@@ -119,9 +119,51 @@ function uploadFromFile() {
     fileInput.click(); // Simulate a click to open the file dialog
 }
 
-// Leaving empty for public consumption
+// Consider leaving empty for public consumption
 
 const keyValuePairs = {
+    "USTS": "USSS",
+    "USDS": "UDDD",
+    "BDEE": "RDDD",
+    "Clover": "EUUU",
+    "ByteStyle": "BSSS",
+    "TikTok": "TheCompany",
+    "TTP": "ThePartner",
+    "ByteES": "BElastic",
+    "Triton": "Threeton",
+    "Kani": "CanI",
+    "Protego": "Prodigy",
+    "Coral": "Floral",
+    "PSM": "MicroSVC",
+    "Whacker": "Whack-A-Mole",
+    "Footprint": "BigFoot",
+    "TT Eng": "TheEng",
+    "Watchdog": "Watchcat",
+    "Streamlog": "Riverlog",
+    "Argos": "Agurk",
+    "ABM": "ABowel",
+    "CBM": "CBowel",
+    "Byte": "8-Bits",
+    "Always Day 1": "AD1",
+    "OCI": "MTRX",
+    "Oracle": "TheOne",
+    "DES": "BigFW",
+    "DECC": "FWPass",
+    "Lark": "Slackk",
+    "GOC": "IncTool",
+    "TCE": "TheK8s",
+    "ABase": "OurBigDB",
+    "YARN": "SewingKit",
+    "PaCI": "Patxi",
+    "Dorado": "Dorito",
+    "Aeolus": "Aeros",
+    "Inkfish": "Calamari",
+    "Texas": "Secession",
+    "VPC": "Virta",
+    "Creativity Program Beta": "CPBeta",
+    "Creator Fund": "CFU",
+    "UFP": "USerFP",
+    "TTCM": "TTTTCM"
 
 };
 
