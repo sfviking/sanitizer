@@ -1,0 +1,66 @@
+/* styles.css */
+.icon {
+    vertical-align: middle;
+    height: 50px; /* Example size, adjust as needed */
+    width: auto;
+}
+
+.title {
+    display: inline;
+    vertical-align: middle;
+    margin-left: 10px; /* Adjust spacing between icon and title as needed */
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    background-color: #d8ecf3;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+h2 {
+    color: #007BFF;
+}
+
+div {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+textarea {
+    width: calc(100% - 20px); /* Adjust width to fill container, accounting for padding */
+    height: 200px; /* Larger textarea height */
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    /* font-size: 16px; /* Ensure textarea font size is appropriate */
+    resize: vertical;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styling for file input button if you decide to implement file loading */
+input[type="file"] {
+    margin-top: 10px;
+}

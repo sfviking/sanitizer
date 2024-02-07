@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sanitizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/webp" href="/images/icon.webp">
+    <script src="https://unpkg.com/compromise"></script>
+</head>
+<body>
+    <header>
+        <img src="images/icon.webp" alt="Icon" class="icon">
+        <h2 class="title">Welcome to Sanitizer</h2>
+    </header>
+
+    <!-- Form for Input Text -->
+    <div>
+        <h3>Input Text</h3>
+        <textarea id="inputText" placeholder="Enter text to be modified"></textarea>
+        <button onclick="clearInputText()">Clear</button>
+        <button onclick="stripURLs()">Sanitize URLs</button>
+        <button onclick="handleReplaceNames()">Sanitize Names</button>
+        <button onclick="removeChineseCharacters()">Remove Chinese Characters</button>
+        <button onclick="replaceText()">Sanitize</button>
+        <button onclick="copyResultText()">Copy to Clipboard</button>
+        <button onclick="reverseReplaceText()">Reverse Sanitize</button>
+        <button onclick="removeMarkdownTags()">Remove Markdown</button>
+    </div>
+    
+    <!-- Form for Key-Value Pairs -->
+    <div>
+        <h3>Word Mapping</h3>
+        <textarea id="keyValuePairs" placeholder="Enter key-value pairs here (key:value or key\tvalue)"></textarea>
+        <button onclick="prepopulateKeyValuePairs()">Prepopulate Key-Value Pairs</button>
+        <button onclick="clearKeyValuePairs()">Clear</button>
+        <button onclick="uploadFromFile()">Upload from File</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
